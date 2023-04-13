@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* First layout */
+.front{
+    display: flex;
+    justify-content: flex-end;
+    background-color:rgb(228, 225, 221) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+a{
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+}
+
+#parent{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: rgb(12, 59, 46);
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 35px;
+    
+ 
+}
+.left {
+    position: relative;
+    top: 90px;
+    left: 70px;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+.right img{
+    margin-left: 400px;
+    width: 60%;
+    height: 100%;
+    
+    
+  
+}
+.left h2{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.left p{
+    font-size: 15px;
+    padding-top: 25%;
+}
+.click{
+    margin-top: 65px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 65%;
+    background-color: rgb(255, 186, 0);
+    font-family: 'Poppins', sans-serif;
+    border-color: none;
+    font-weight: 700;
+    
+}
+
+/* second layout */
+ .sechead{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 186, 0);
+    font-family:'RocknRoll One', sans-serif; 
+    font-size: 45px;
+}
+
+.mom{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(255, 186, 0);
+    
+}
+
+#image {
+    margin-right: 6%;
+    margin-left: 6%;   
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+#image h3,p,h4{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 3%;
+}
+
+@media (max-width:800px){
+    .parent .right,.left{
+        width: 100%;
+    }
+
+    .right{
+        height: 80vh;
+    }
+
+    .left img{
+        height: 80vh;
+    }
+}
+
+@media (max-width:475px){
+    .right img{
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 400px){
+    .left h1{
+        font-size: 40px;
+        padding-right: 40px;
+    }
+
+    button{
+        padding: auto;
+        margin-bottom: 20%;
+    }
+
+
+
+
+}
+
+
